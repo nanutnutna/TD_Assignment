@@ -1,0 +1,8 @@
+SourcePath : C:\Users\59010374\Desktop\test.txt
+TargetPath : C:\Users\59010374\Desktop\out.txt
+
+DB :
+    enable : false
+    Schema : test
+    Table  : menus
+    JSONPath : C:\Users\59010374\Desktop\out.json
