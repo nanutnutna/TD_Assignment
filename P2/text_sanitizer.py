@@ -82,8 +82,5 @@ if __name__ == "__main__" :
         data,line = readFile(source)
         WriteFile(target,line)
         print(CountAlPhaBet(data))
-    elif len(sys.argv) == 5 :
-        source,target,schema,table = sys.argv[1],sys.argv[2],sys.argv[3],sys.argv[4]
-        ReadFromDB(schema,table)
     else :
         print('Check your argument!!, something missing')
